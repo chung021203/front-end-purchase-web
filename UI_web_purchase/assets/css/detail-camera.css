@@ -1,6 +1,7 @@
 .detail-item{
     display: flex;
     flex: 1;
+    padding: 100px;
     
 }
 .detail-camera{
@@ -19,4 +20,24 @@
 }
 .product-price{
     color: brown;
+}
+.btn-detail{
+    padding: 15px;
+    color: aliceblue;
+    background-color:red;
+    border: none;
+    display: block;
+    font-size: 20px;
+    font-weight: 520;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.btn-detail:hover{
+    color: black;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.detail-img{
+    width: 600px;
+    height: 460px;
 }
