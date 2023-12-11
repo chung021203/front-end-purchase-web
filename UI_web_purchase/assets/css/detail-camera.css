@@ -1,0 +1,22 @@
+.detail-item{
+    display: flex;
+    flex: 1;
+    
+}
+.detail-camera{
+    padding: 50px;
+}
+.body-detail{
+    flex: 2;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: dimgray;
+    opacity: 0.9;
+}
+.product-side{
+    padding: 0 50px;
+}
+.product-price{
+    color: brown;
+}
