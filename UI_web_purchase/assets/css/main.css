@@ -11,12 +11,16 @@
 .list-cameras{
     display: flex;
     flex-wrap: wrap;
+    padding: 40px;
     
     
 }
 .list-cameras .item img {
     width: 100%;
     max-height: 200px;
+}
+.list-cameras .price-camera{
+    margin: 20px 0;
 }
 .list-cameras .body-item{
     padding: 20px;
@@ -56,6 +60,7 @@
     color: rgb(137,179,187);
     padding: 40px;
     cursor: pointer;
+    line-height: 2;
 }
 .footer{
     background-color: rgb(24,24,33);
@@ -79,6 +84,15 @@
     
     
 }
+.footer-heading{
+    margin-bottom: 20px;
+}
+.footer-img{
+    margin-top: 20px;
+}
+.footer-phone{
+    line-height: 36px;
+}
 /* form login */
 .modal{
    
@@ -91,8 +105,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
    
+   
+}
+.display{
+    display: none;
 }
 
 .img__modal{
@@ -167,4 +184,77 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+/* header */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
+
+}
+.header-contain{
+    background-color: rgb(0,99,209);
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+.header-user-container{
+    display: flex;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.header-cart{
+    display: flex;
+    line-height: 40px;
+    font-weight: 500;
+    color: antiquewhite;
+    font-size: 13px;
+}
+.cart-icon{
+    line-height: 40px;
+    padding: 0 10px;
+}
+.header-search{
+    line-height: 40px;
+}
+.user-icon{
+    line-height: 40px;
+    padding: 0 10px;
+}
+.hearder-name{
+    line-height: 40px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+
+}
+.header-input{
+    
+    width: 400px;
+    padding: 3px;
+}
+.header-btn-search{
+    padding: 3px 5px;
+    border: none;
+}
+.header-btn-search:hover{
+    background-color: aqua;
+    cursor: pointer;
+    
+}
+.hearder-name:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.header-user:hover{
+    color: chocolate;
+    cursor: pointer;
+}   
+.cart-heading:hover{
+    color: chocolate;
+    cursor: pointer;
 }

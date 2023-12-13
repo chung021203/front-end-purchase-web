@@ -13,6 +13,22 @@
 <body>
  <div class="app">
     <header class="header">
+        <div class="header-contain">
+            <div class="hearder-name">CameraShopping</div>
+            <div class="header-search">
+                <input  type="text" name="" id="" class="header-input" placeholder="Nhập">
+                <button class="header-btn-search">Tìm kiếm</button>
+            </div>
+            <div class="header-user-container">
+                <i class="ti-user user-icon"></i>
+                <div class="header-user" >Đăng nhập</div>
+            </div>
+            <div class="header-cart">
+                <i class="ti-shopping-cart cart-icon"></i>
+                <div class="cart-heading">Giỏ hàng</div>
+            </div>
+        </div>
+            
        
         
 
@@ -33,13 +49,13 @@
                 <div class="footer-contact">
                    <div class="footer-contact-item">
                     <i class="ti-headphone-alt"></i>
-                    <p>(028) 66.856.262</p>
+                    <p class="footer-phone">(028) 66.856.262</p>
                     
                    </div>
                  
                    <div class="footer-contact-item">
                     <i class="ti-mobile"></i>
-                    <p>0335118854</p>
+                    <p class="footer-phone">0335118854</p>
                     
                    </div>
                 </div>
@@ -74,7 +90,7 @@
                 <h2 class="footer-heading">Quản lí tài khoản</h2>
                    <p>Quản lí tài khoản</p>
                    <p>Lịch sử đơn hàng</p>
-                   <img src="https://mayanh24h.com/upload/assets/icons/reg-bct.png" alt="Ảnh">
+                   <img class="footer-img" src="https://mayanh24h.com/upload/assets/icons/reg-bct.png" alt="Ảnh">
 
 
             </div>
@@ -91,7 +107,7 @@
  </div>
 
  <!-- login -->
- <div class="modal">
+ <div class="modal display">
     <div class="modal__container">
         <div class="modal__form">
            <div class="modal__inner">
@@ -107,11 +123,11 @@
                 </div>
             </div>
         </div>
-        <div class="btn-modal-close"><i class="ti-close icon-close"></i></div>
+        <div class="btn-modal-close"><i class="ti-close icon-close-login"></i></div>
     
 </div>
  <script type="module" src="/js/main.js" ></script>
-
+ <script src="/js/login.js"></script>
 
 
  

@@ -75,8 +75,12 @@ function renderProduct (cameras){
 
 function start() {
    getDataFromApi(renderProduct,apiCameras)
+  
 }
 start()
+// handle show form login
+
+
 //
 // const eles = document.querySelectorAll('.item')
 // for (const ele of eles){
